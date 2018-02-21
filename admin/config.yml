@@ -1,5 +1,5 @@
 backend:
-  name: jk-test
+  name: github
   repo: https://github.com/relaxyd/jk-test
   branch: master
   site_domain: https://hungry-jones-845e42.netlify.com/
