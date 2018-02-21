@@ -4,4 +4,4 @@ title: Post pildiga
 ---
 Siin on allkiti
 
-![](/images/7359_allkiri.png)
+![null](/images/7359_allkiri.png)
