@@ -2,7 +2,7 @@ backend:
   name: github
   repo: relaxyd/jk-test
   branch: master
-  site_domain: https://hungry-jones-845e42.netlify.com/
+  site_domain: hungry-jones-845e42.netlify.com
   base_url: https://api.netlify.com
 media_folder: "images/uploads"
 collections:
