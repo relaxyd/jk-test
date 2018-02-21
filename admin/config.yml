@@ -3,6 +3,7 @@ backend:
   repo: relaxyd/jk-test
   branch: master
   site_domain: https://hungry-jones-845e42.netlify.com/
+  base_url: https://api.netlify.com
 media_folder: "images/uploads"
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
