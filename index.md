@@ -1,4 +1,4 @@
 ---
-title: Nimetus
+title: Avaleht
 ---
 avalehe sisu siin
