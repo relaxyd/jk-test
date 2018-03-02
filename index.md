@@ -1,5 +1,4 @@
 ---
 title: Avaleht
-layout: home
 ---
-avalehe sisu siin
+uuendus. avalehe sisu siin
