@@ -12,12 +12,22 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
+      - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+      
   - name: "pages"
     label: "Pages"    
-    file: "about.md"
+    files:
+      - name: "about"
+        label: "About"
+        file: "about.md"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: "index"
+        label: "Index"
+        file: "index.md"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
