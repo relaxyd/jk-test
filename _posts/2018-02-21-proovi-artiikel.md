@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Proovi artiikel
+date: '2018-03-11'
+author: Karl Jõehobu
+image: /images/kajakas.jpg
 ---
-siin on selline tore uudis
 
-* 123
-* 3465
-
-[viide](www.5dvision.ee)
-
-1. Mina
-2. sina
-3. keegi kolmas
